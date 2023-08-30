@@ -47,7 +47,7 @@ except OSError as e:
         raise
     
 ################################################################################
-#                      Levanta PASS de SA previa SINO la Pide
+#                      Levanta PASS previa SINO la Pide
 ################################################################################
 
 def levantaPass():
@@ -72,7 +72,7 @@ def levantaPass():
         passWrite.close()
         
 ################################################################################
-#                   Abriendo Sistema Administrativo SA
+#                   Abriendo Sistema Administrativo
 ################################################################################
 
 sa = str('c:\\SA\\sa.exe')
